@@ -19,5 +19,5 @@ var a = 1;
 
 fs.writeFile('dane.txt', a + 1 , (err) => {
     if (err) throw err;
-console.log('Test');
+console.log('Test2');
 });
